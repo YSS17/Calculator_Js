@@ -1,0 +1,30 @@
+*{
+  font-family: 'Press Start 2P', cursive;
+}
+
+body{
+  margin: 0;
+}
+
+.wrapper {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#seconds, #miliseconds {
+  font-size: 2rem;
+}
+
+button{
+  width: 120px;
+  height: 60px;
+  opacity: 0.7;
+  box-shadow:   -3px 0 0 0 black,
+                3px 0 0 0 black,
+                0 -3px 0 0 black,
+                0 3px 0 0 black;
+}
+
+button:hover {
+  opacity: 1;
+}
